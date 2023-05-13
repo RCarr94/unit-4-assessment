@@ -1,13 +1,7 @@
-import { useEffect } from 'react';
+
 import './Circles.css';
 
 export default function Circles({ idx }) {
-    useEffect(function() {
-        console.log('Circles mounted');
-        return () => {
-        console.log('Circles unmounted');
-        };
-    }, []);
     
     const classNames = Array(4).fill('');
     

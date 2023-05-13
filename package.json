@@ -1,8 +1,8 @@
 {
-  "name": "project-4-assessment",
+  "name": "unit-4-assessment",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://RCarr94.github.io/project-4-assessment",
+  "homepage": "https://RCarr94.github.io/unit-4-assessment",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

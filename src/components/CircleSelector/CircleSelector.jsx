@@ -1,17 +1,11 @@
-import { useEffect } from 'react';
 import './CircleSelector.css';
 
 export default function CircleSelector({ idx, changeIdx }) {
-    useEffect(function() {
-        console.log('CircleSelector mounted');
-        return function() {
-        console.log('CircleSelector unmounted');
-        };
-    }, []);
+
     
     const classNames = Array(4).fill('');
     
-    classNames.forEach(function(_, i) {
+    classNames.forEach(function(x, i) {
         if (i === idx) {
         classNames[i] = 'selected';
         } else {
